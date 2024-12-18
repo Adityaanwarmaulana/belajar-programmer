@@ -1,0 +1,14 @@
+p {
+	text-indent: 50px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	color: royalblue;
+}
+
+body {
+	background-color: white;
+	background-image: url(gambar/boyttul.jpeg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}

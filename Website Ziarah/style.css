@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'arial', sans-serif;
+}
+body {
+	height: 90vh;
+	background-image: url("ziarah.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(5px);
+}
+.main {
+	height: 520px;
+	width: 930px;
+	background-image: url("ziarah.jpg");
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 0 45px yellow;
+}
+nav {
+	display: flex;
+	padding: 30px 18px;
+}
+nav .logo {
+	font-size: 22px;
+	color: black;
+	cursor: pointer;
+	margin-left: 50px;
+}
+nav ul {
+	text-align: right;
+	flex: 1;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 25px;
+	transition: 0.5s ease-out;
+}
+nav ul li:hover {
+	border-bottom: 3px solid black;
+}
+nav ul li a{
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav ul button{
+	background: red;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 20px;
+	transition: 0.3s ease-in-out;
+}
+nav ul button:hover {
+	color: orange;
+	background: transparent;
+	border: 2px solid green;
+}
+
+.content h3 {
+	font-style: italic;
+	font-weight: 100;
+	color: red;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin: 30px 260px -25px;
+}
+.content h1 {
+	position: fixed;
+	font-family: 'Garamond', sans-serif;
+	font-size: 100px;
+	letter-spacing: 10px;
+	opacity: 0.6;
+	color: black;
+	margin: 0 260px;
+	background-image: linear-gradient(45deg, red, white, red, white, red);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+.social {
+	display: flex;
+	margin: 310px;
+	margin-right: 20px;
+}
+.social i {color: red;}
+.social ul {
+	flex: 1;
+	text-align: right;
+}
+.social ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 15px;
+	padding: 10px;
+}
+.social ul li i {
+	font-size: 22px;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+.social ul li i:hover {
+	color: yellow;
+}

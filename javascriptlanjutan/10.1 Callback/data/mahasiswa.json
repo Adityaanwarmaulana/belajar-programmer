@@ -1,0 +1,20 @@
+[
+	{
+		"nama": "Aditya",
+		"nim": "123",
+		"email": "AAM.com",
+		"jurusan": "Teknik Informatika"
+	},
+	{
+		"nama": "Anwar",
+		"nim": "456",
+		"email": "A.com",
+		"jurusan": "Teknik Informatika"
+	},
+	{
+		"nama": "Maulana",
+		"nim": "789",
+		"email": "M.com",
+		"jurusan": "Teknik Informatika"
+	},
+];
